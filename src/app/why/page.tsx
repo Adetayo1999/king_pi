@@ -96,14 +96,14 @@ export default function Why() {
             <p>
               Upon resumption, I observed some anomalies in how things were done
               in the faculty. For instance, other faculties had publications for
-              past questions and solutions to them for all courses but he could
-              hardly even find materials for his courses talk less of past
-              questions so he took it upon himself to keep materials and past
+              past questions and solutions to them for all courses but I could
+              hardly even find materials for my courses talk less of past
+              questions so I took it upon myself to keep materials and past
               questions for all the classes, especially the ones in electronic
               forms were saved on drives. I converted the hard copies into PDFs
               and uploaded them to Google Drive. I took it a notch further by
-              also collecting past questions from sets after his to keep for the
-              use of the people from the future.
+              also collecting past questions from sets after mine to keep for
+              the use of the people from the future.
             </p>
             <p>
               I, like you, have once struggled to get my bearings in this
