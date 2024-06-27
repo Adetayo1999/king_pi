@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} flex flex-col gap-y-8 py-[2rem]  min-h-screen bg-primary overflow-x-hidden`}
       >
-        <div className="mx-auto w-[85%]  md:w-[80%] ">
+        <div className="mx-auto w-[90%]  md:w-[80%] ">
           <Header />
           {children}
         </div>

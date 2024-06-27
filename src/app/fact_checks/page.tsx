@@ -54,7 +54,7 @@ const FactCard: React.FC<{ image: StaticImageData }> = ({ image }) => {
 
   return (
     <motion.div
-      className="ring-4  rounded-2xl ring-secondary_text overflow-hidden h-[25rem] md:h-fit"
+      className="ring-4  rounded-2xl ring-secondary_text overflow-hidden h-[25rem] md:h-fit w-full md:w-fit"
       ref={ref}
       initial="hidden"
       animate={controls}
