@@ -2,10 +2,10 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-import factOne from "../../../public/images/M&T_1.png";
-import factTwo from "../../../public/images/M&T_2.png";
-import factThree from "../../../public/images/M&T_3.png";
-import factFour from "../../../public/images/M&F 4.jpg";
+import factOne from "../../../public/images/fact_1.jpg";
+import factTwo from "../../../public/images/fact_2.jpg";
+import factThree from "../../../public/images/fact_3.jpg";
+import factFour from "../../../public/images/fact_4.jpg";
 import Image, { StaticImageData } from "next/image";
 import { useEffect } from "react";
 
@@ -54,7 +54,7 @@ const FactCard: React.FC<{ image: StaticImageData }> = ({ image }) => {
 
   return (
     <motion.div
-      className="ring-4  rounded-2xl ring-secondary_text overflow-hidden h-[25rem] md:h-fit w-full md:w-fit"
+      className="ring-4  rounded-2xl ring-secondary_text overflow-hidden h-[25rem] md:h-fit w-full"
       ref={ref}
       initial="hidden"
       animate={controls}
@@ -63,7 +63,7 @@ const FactCard: React.FC<{ image: StaticImageData }> = ({ image }) => {
       <Image
         src={image}
         alt="Myth And Quote"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover object-top"
       />
     </motion.div>
   );

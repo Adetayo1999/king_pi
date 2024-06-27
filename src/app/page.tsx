@@ -90,7 +90,7 @@ export default function Home() {
         >
           <motion.h1
             className={clsx(
-              "text-6xl md:text-8xl font-mono  text-secondary_text font-bold"
+              "text-6xl text-center md:text-left md:text-8xl font-mono  text-secondary_text font-bold"
             )}
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -103,7 +103,7 @@ export default function Home() {
           >
             akindele
           </motion.h1>
-          <p className="text-lg md:text-xl  font-semibold text-primary_text tracking-widest">
+          <p className="text-lg md:text-xl  font-semibold text-primary_text tracking-widest text-center md:text-left">
             <TypeAnimation
               sequence={[
                 "Photographer",
@@ -120,7 +120,7 @@ export default function Home() {
               repeat={Infinity}
             />
           </p>
-          <div className="flex flex-wrap md:flex-nowrap gap-5 md:gap-x-4 items-center">
+          <div className="flex flex-wrap md:flex-nowrap gap-5 md:gap-x-4 items-center justify-center md:justify-start">
             {LINKS.map((item, idx) => (
               <div
                 className="flex  gap-x-4 items-center text-xs "
