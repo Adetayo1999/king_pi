@@ -35,6 +35,11 @@ const LINKS = [
     name: "why akindele",
     link: "/why",
   },
+  {
+    id: 7,
+    name: "Awards",
+    link: "/awards",
+  },
 ];
 
 export const Header = () => {

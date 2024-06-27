@@ -37,6 +37,11 @@ const LINKS = [
     name: "why akindele",
     link: "/why",
   },
+  {
+    id: 7,
+    name: "Awards",
+    link: "/awards",
+  },
 ];
 
 export default function Home() {
@@ -132,7 +137,7 @@ export default function Home() {
                 >
                   {item.name}
                 </Link>
-                {idx !== 5 ? <span className="text-gray-400">|</span> : null}
+                {idx !== 6 ? <span className="text-gray-400">|</span> : null}
               </div>
             ))}
           </div>
